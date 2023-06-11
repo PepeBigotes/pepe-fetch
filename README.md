@@ -11,9 +11,9 @@
 
 </h2>
 
-## 📜 My attempt to replicate the [neofetch](https://github.com/dylanaraps/neofetch) in python  
+### 📜 My attempt to replicate the [neofetch](https://github.com/dylanaraps/neofetch) in python  
 
-# 🔧 Installation
+## 🔧 Installation
 
 First of all, install these dependencies:
 
