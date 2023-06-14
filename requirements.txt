@@ -1,0 +1,2 @@
+colored #Used to make colored and bold text
+requests #Used to get the public IP via HTTPS request

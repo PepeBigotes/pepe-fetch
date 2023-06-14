@@ -15,22 +15,22 @@
 
 ## 🔧 Installation
 
-First of all, install these dependencies:
-
-```bash
-pip3 install colored requests
-```
-
-Now clone the repository:  
+First of all, clone the repository:  
 
 ```bash
 git clone https://github.com/PepeBigotes/pepefetch
 ```
 
-Congrats! you are now ready to execute `main.py` to use the tool:  
+Now make sure the required libraries are installed:  
 
 ```bash
-cd pepefetch && py -3 main.py
+cd pepefetch && pip3 install -r requirements.txt
+```
+
+And you are done! You can now execute `main.py` to use pepefetch:  
+
+```bash
+py -3 main.py
 ```
 
 ## 🖌 Customization
