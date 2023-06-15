@@ -35,7 +35,7 @@ py -3 main.py
 
 ## 🖌 Customization
 
-You can easily customize and configure this tool through the next files:
+You can easily customize and configure this tool through the next files in the `/custom` directory:
 
 - `config.py`: Configuration file to set parameters like colors, symbols, custom variables, formats, etc.  
 - `infos.py`: Script that calls all the info() functions so you can easily reorder or enable/disable these 'infos' as you like. You can also put your own prints here.  

@@ -5,7 +5,7 @@
 #  |___/\__,_/_/  /____/  
 #                        
 #DON'T CHANGE THIS SCRIPT UNLESS YOU KNOW WHAT YOU ARE DOING!
-#Customization options are at 'config.py' and 'infos.py'
+#Customization options are in the 'custom' folder
 
 #Terminal size
 rows, columns = os.popen('stty size', 'r').read().split()

@@ -8,7 +8,8 @@
 #
 #Created by PepeBigotes
 
-exec(open("./imports.py").read()) #Imports/dependencies
-exec(open("./config.py").read()) #User configuration (customize here!)
-exec(open("./vars.py").read()) #Main script that handles variables and functions
-exec(open("./infos.py").read()) #Prints order (futher customization)
+#DO NOT CHANGE THIS LOAD ORDER JUST FOR READABILITY !
+exec(open("./scripts/imports.py").read()) #Imports/dependencies
+exec(open("./custom/config.py").read()) #User configuration (customize here!)
+exec(open("./scripts/vars.py").read()) #Main script that handles variables and functions
+exec(open("./custom/infos.py").read()) #Prints order (futher customization)
