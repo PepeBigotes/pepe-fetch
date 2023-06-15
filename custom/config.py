@@ -10,11 +10,13 @@
 #If you want to modify the actual prints, check 'infos.py'
 
 #Color Class
-# See https://pypi.org/project/colored/ for more info
+# See https://pypi.org/project/colored/ for more details
 class color:
    c0 = colored.fg('#FFFFFF')
-   c1 = colored.fg('#A0FFA0')
-   c2 = colored.fg('#A9DFA9')
+   c_welcome = colored.fg('#00FF00')
+   c_underline = c0
+   c_info = colored.fg('#B6FFB6')
+   c_ascii = colored.fg('#00FF00')
    
    bold = colored.attr("bold") #Leave this one alone
    reset = colored.attr("reset") #Leave this one alone
@@ -52,4 +54,4 @@ top_margin = 1
 bottom_margin = 1
 
 #Ascii art color/format
-ascii_color = f"{color.bold}{color.c1}"
+ascii_color = f"{color.bold}{color.c_ascii}"

@@ -56,9 +56,9 @@ if not welcome_p:
 
 if not welcome:
    welcome = ""
-   welcome += color.bold + color.c1 + welcome_p[0] + color.reset
+   welcome += color.bold + color.c_welcome + welcome_p[0] + color.reset
    welcome += color.bold + color.c0 + welcome_p[1] + color.reset
-   welcome += color.bold + color.c2 + welcome_p[2] + color.reset
+   welcome += color.bold + color.c_welcome + welcome_p[2] + color.reset
 
 welcome_sum = "".join(map(str, welcome_p))
 welcome_len = len(welcome_sum)
@@ -80,7 +80,10 @@ info_lines = []
 def info(text = "", info = "" , suffix = default_suffix):
    if not text or not info:
       suffix = ""
-   info_lines.append(text + suffix + info)
+   if text is underline:
+      info_lines.append(color.c_underline + underline + color.reset)
+   else:
+      info_lines.append(color.c_info + text + suffix + color.reset + info)
 
 
 #Print Infos Function
