@@ -11,7 +11,7 @@
 
 </h2>
 
-### 📜 My attempt to replicate the [neofetch](https://github.com/dylanaraps/neofetch) in python  
+### 📜 A system information tool writen in python, heavily inspired by [neofetch](https://github.com/dylanaraps/neofetch)  
 
 ## 🔧 Installation
 
