@@ -41,3 +41,15 @@ welcome = None #Default is 'welcome_p' colored
 underline_symbol = "="
 # Suffix
 default_suffix = ": "
+
+# Horizontal margins
+left_margin = " "
+middle_margin = "   "
+right_margin = " "
+
+#Vertical margins
+top_margin = 1
+bottom_margin = 1
+
+#Ascii art color/format
+ascii_color = f"{color.bold}{color.c1}"

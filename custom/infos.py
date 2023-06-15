@@ -19,7 +19,6 @@ info("Date" , date_dmy)
 info("Disk" ,  f"{disk.used_gib}/{disk.total_gib} GiB ({disk.used_percert}%)")
 info("Local IP" , local_ip)
 #info("Public IP" , public_ip)
-info()
 
 
 

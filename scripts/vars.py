@@ -92,9 +92,15 @@ def print_infos():
       ascii_len = len(line)
       break
    
+   for i in range (0, top_margin): print()
+      
    for i in range(0, numof_lines):
       try: ascii_line = ascii_lines[i] 
       except: ascii_line = " " * ascii_len
       try: info_line = info_lines[i] 
       except: info_line = ""
-      print(f"{ascii_line}  {info_line}")
+      
+      ascii_line = f"{ascii_color}{ascii_line}{color.reset}"
+      print(f"{left_margin} {ascii_line}{middle_margin}{info_line} {right_margin}")
+      
+   for i in range (0, bottom_margin): print()
