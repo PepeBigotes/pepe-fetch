@@ -20,6 +20,10 @@ class color:
    reset = colored.attr("reset") #Leave this one alone
 
 
+#Ascii text path
+ascii_path = "./asciis/pepefetch.txt"
+
+
 #Username
 username = None #Default is your system's login
 #Hostname

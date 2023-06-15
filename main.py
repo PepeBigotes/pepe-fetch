@@ -12,4 +12,4 @@
 exec(open("./scripts/imports.py").read()) #Load libraries
 exec(open("./custom/config.py").read()) #Load user config variables
 exec(open("./scripts/vars.py").read()) #Handle variables and functions
-exec(open("./custom/infos.py").read()) #Make prints
+exec(open("./custom/infos.py").read()) #Make infos
