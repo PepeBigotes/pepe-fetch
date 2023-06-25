@@ -24,6 +24,12 @@ And you are done! You can now execute `main.py` to use pepefetch:
 py -3 main.py
 ```
 
+or if you have an older system...
+
+```bash
+python3 main.py
+```
+
 ## 🖌 Customization
 
 You can easily customize and configure this tool through the next files in the `/custom` directory:
