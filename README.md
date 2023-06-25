@@ -1,8 +1,9 @@
 <div align="center">
 <img src="preview.png" width=80%>
-</div>
 
 ### 📜 A system information tool writen in python, heavily inspired by [neofetch](https://github.com/dylanaraps/neofetch)  
+
+</div>
 
 ## 🔧 Installation
 
