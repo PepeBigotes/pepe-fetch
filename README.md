@@ -1,15 +1,6 @@
-<h2>
-
-```
-                            ____     __       __  
-     ____  ___  ____  ___  / __/__  / /______/ /_ 
-    / __ \/ _ \/ __ \/ _ \/ /_/ _ \/ __/ ___/ __ \
-   / /_/ /  __/ /_/ /  __/ __/  __/ /_/ /__/ / / /
-  / .___/\___/ .___/\___/_/  \___/\__/\___/_/ /_/ 
- /_/        /_/                                   
-```
-
-</h2>
+<div align="center">
+<img src="preview.png" width=80%>
+</div>
 
 ### 📜 A system information tool writen in python, heavily inspired by [neofetch](https://github.com/dylanaraps/neofetch)  
 
